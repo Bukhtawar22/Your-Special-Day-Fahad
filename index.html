@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Fahad!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Cursive', Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(to bottom right, #010102, #51121299);
+            color: #fff;
+            text-align: center;
+        }
+        .container {
+            max-width: 90%;
+            width: 700px;
+            background: rgba(71, 3, 3, 0.984);
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 10px 20px rgba(226, 108, 108, 0.325);
+        }
+        h1 {
+            font-size: 3.2rem;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+        }
+        p {
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1.1rem;
+            border: none;
+            border-radius: 10px;
+            background: #ff6f61;
+            color: #fff;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        button:hover {
+            background: #ff3366;
+        }
+        .heart {
+            font-size: 4rem;
+            animation: heartbeat 1.5s infinite;
+            text-shadow: 2px 2px 8px rgba(255, 0, 0, 0.6);
+        }
+        .stickers {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .sticker {
+            width: 60px;
+            margin: 5px;
+            display: inline-block;
+        }
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heart">❤️</div>
+        <h1>Happy Birthday, Fahad!</h1>
+        <p>
+            Happy Birthday to my dearest Fahad,💖 my sweetheart,💖 my jaan,💖 my jaanu , 💖my heartbeat! 
+            Today, we celebrate not just your birthday but the endless love and joy you bring into my life. 
+            Your smile is my sunshine, your touch is my comfort, and your presence is my world. 💖
+        </p>
+        <p>
+            You are my dream,💕 my heart, my everything. On your special day, I just want to remind you how 
+            much you mean to me. Every moment with you is a gift, and every memory we create together is my adore.
+            💕Here's to celebrating the most amazing man in my life—you! 🎉 🎉 🎉 🎉 🎉 🎉 🎉
+        </p>
+        <button onclick="showMessage()">Click for a Romantic Surprise!</button>
+        <p id="surprise" style="display: none; font-size: 1.6rem; margin-top: 20px;">
+            Fahad,💘 you are my reason to smile, my reason to love, my reason to live. 
+            💘My love for you is limitless, timeless, and unbreakable.. Happy Birthday, my jaan! 💘
+        </p>
+      
+
+    <script>
+        function showMessage() {
+            document.getElementById('surprise').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
